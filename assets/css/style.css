@@ -100,3 +100,58 @@ body {
     padding-right: 10em;
     padding-left: 1em;
 }
+
+.dispositivos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 9em;
+}
+
+.dispositivos__titulo{
+    font-size: 48px;
+    font-weight: bold;
+    padding-bottom: 3em;
+}
+
+.dispositivos__lista{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    column-gap: 4em;
+}
+
+.devices__imagem {
+    padding-bottom: 2em;
+}
+
+.devices__titulo {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.cabecalho__logo{
+    padding-bottom: 2.5em;
+}
+
+.cabecalho__lista {
+    display: flex;
+    column-gap: 1em;
+    padding-bottom: 1.5em;
+}
+
+.cabecalho__texto {
+    font-size: 14px;
+    color: var(--cinza-secundario);
+    margin-bottom: 5em;
+    padding: 0 10em;
+}
